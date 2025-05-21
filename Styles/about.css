@@ -1,0 +1,125 @@
+
+/* HEADER */
+.nav-menu a{
+    color: black !important;
+    font-family: Gilroy-medium;
+}
+
+.navbar-nav .nav-link.active {
+    color: #05A93D !important;
+}
+
+.header-span{
+    color: #05A93D;
+}
+
+.navbar .dropdown-menu {
+  width: 300px; 
+  min-width: unset; 
+  white-space: normal; 
+  border: none;
+}
+
+.navbar .dropdown-item {
+  white-space: normal;
+}
+
+
+/* BANNER SECTION */
+
+#banner-section{
+    background-image: url("../Images/Rectangle 13.png");
+    background-size: cover;
+    height: 335px;
+}
+
+.banner h1{
+    color: #05A93D;
+    padding-top: 108px;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+/* ABOUT SECTION */
+.about-details p{
+    padding-top: 82px;
+    font-family: Gilroy-medium;
+    padding-bottom: 39px;
+    color: #777777;
+}
+
+/* SERVICE SECTION */
+
+.service-grid p{
+    font-family: Gilroy-medium;
+}
+
+.service-grid h6{
+    font-family: Gilroy-semibold;
+    padding-top: 15px;
+    padding-bottom: 7px;
+}
+
+.service-grid{
+    padding: 20px; 
+}
+
+.service h2{
+    font-family: Gilroy-semibold;
+    padding-top: 45px;
+}
+
+.service p{
+    font-family: Gilroy-medium;
+    color: #777777;
+}
+
+.spacing{
+    line-height: 2;
+}
+
+/* FOOTER  */
+footer{
+    background-color: #05A93D;
+    margin-top: 89px;    
+}
+
+.footer-link a{
+    text-decoration: none;
+    color: white;
+    font-family: Gilroy-medium;
+}
+
+.footer-link{
+    list-style-type: none;
+    gap: 73px;
+    padding-top: 37.78px;
+}
+
+.social-links{
+    gap: 11px;
+    padding-top: 41px;
+    padding-bottom: 44.91px;
+}
+
+.logo-footer{
+    padding-top: 65px;
+}
+
+.footer p{
+    font-family: Gilroy-medium;
+}
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+    .footer-link{
+        gap: 43px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .footer-link{
+        gap: 25px;
+    }
+}

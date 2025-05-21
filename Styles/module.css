@@ -1,0 +1,160 @@
+
+/* HEADER */
+.nav-menu a{
+    color: black !important;
+    font-family: Gilroy-medium;
+}
+
+.navbar-nav .nav-link.active {
+    color: #05A93D !important;
+}
+
+.header-span{
+    color: #05A93D;
+}
+
+.navbar .dropdown-menu {
+  width: 300px; 
+  min-width: unset; 
+  white-space: normal; 
+  border: none;
+}
+
+.navbar .dropdown-item {
+  white-space: normal;
+}
+
+
+/* MODULE SECTION */
+.module-text{
+    background-color: #05A93D;
+    display: table;
+    padding-top: 7.13px;
+    padding-bottom: 5.7px;
+    padding-inline: 14.26px;
+    font-family: Gilroy-semibold;
+    color: white;
+}
+
+.module h2{
+    font-family: Gilroy-semibold;
+    padding-top: 67px;
+    font-size: 2.25rem;
+}
+
+.module p{
+    font-family: Gilroy-medium;
+    color: #777777;
+    line-height: 2.5;
+}
+
+.module ol{
+    font-family: Gilroy-medium;
+    color: #777777;
+    line-height: 1.5;
+}
+
+.module img{
+    padding-top: 71px;
+}
+
+/* SERVICE SECTION */
+.service{
+    padding-top: 37px;
+}
+
+.service h4{
+    font-family: Gilroy-semibold; 
+}
+
+.service h6{
+    font-family: Gilroy-medium;
+}
+
+.service-box{
+    border: 1px solid #cadad4;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-left: 35px;
+    margin-bottom: 35px;
+}
+
+.service-box ul{
+    font-family: Gilroy-medium;
+    color: #777777;
+}
+
+/* MODULE INDEX */
+.module-index{
+    background-color: #EFFAF6;
+    padding-top: 109px;
+    margin-top: 117px;
+    padding-bottom: 116px;
+}
+
+.card a{
+    text-decoration: none;
+    color: #05A93D;
+    font-family: Gilroy-semibold;
+}
+
+.card h6{
+    background-color: #05A93D;
+    padding: 5px 10px;
+    color: white;
+    font-family: Gilroy-semibold;  
+}
+
+.card-title{
+    font-family: Gilroy-semibold;
+}
+
+.card{
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #05A93D; 
+}
+
+.footer-link a{
+    text-decoration: none;
+    color: white;
+    font-family: Gilroy-medium;
+}
+
+.footer-link{
+    list-style-type: none;
+    gap: 73px;
+    padding-top: 37.78px;
+}
+
+.social-links{
+    gap: 11px;
+    padding-top: 41px;
+    padding-bottom: 44.91px;
+}
+
+.logo-footer{
+    padding-top: 65px;
+}
+
+.footer p{
+    font-family: Gilroy-medium;
+}
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+    .footer-link{
+        gap: 43px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .footer-link{
+        gap: 25px;
+    }
+}

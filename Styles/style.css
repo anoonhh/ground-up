@@ -1,0 +1,232 @@
+/* HEADER  */
+.nav-menu a{
+    color: black;
+    font-family: Gilroy-medium;
+}
+
+.navbar-nav .nav-link.active {
+    color: #05A93D !important;
+}
+
+.header-span{
+    color: #05A93D;
+}
+
+.navbar .dropdown-menu {
+  width: 300px; 
+  min-width: unset; 
+  white-space: normal; 
+  border: none;
+}
+
+.navbar .dropdown-item {
+  white-space: normal;
+}
+
+
+/* BANNER SECTION */
+.banner{
+    background-image: url('../Images/plant.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    min-height: 743px;
+}
+
+.span-groundup{
+    color: #05A93D;
+    font-family: Gilroy-bold;
+}
+
+.span-psy{
+    color: #F67C01;
+    font-family: Gilroy-bold;
+}
+
+.banner h1{
+    margin-top: 161px;
+    font-size: 61px; 
+}
+
+.banner p{
+    font-family: Gilroy-medium;
+    color: #4A4949;
+}
+
+.banner-right .btn{
+   background-color: #05A93D;
+   padding: 15px 25px;
+   border-radius: 70px;
+   color: #FFFFFF;
+   font-family: Gilroy-semibold;
+}
+
+/* SERVICE SECTION */
+#service{
+    margin-top: 132px;
+    margin-bottom: 134px;
+}
+
+.service-card{
+    border-radius: 10px;
+}
+
+.service-card h6{
+    font-family: Gilroy-semibold;
+}
+
+.service-card p{
+    font-family: Gilroy-medium;
+    color: #777777;
+}
+
+/* TRAINING SECTION */
+#training{
+    background-color: #EFFAF6;
+    padding-bottom: 117px;
+}
+
+#training h3{
+    font-size: 43px;
+    padding-top: 76px;
+    padding-bottom: 10px;
+    font-family: Gilroy-bold;
+}
+
+#training p{
+    color: #777777;
+    font-family: Gilroy-medium;
+}
+
+.training-card h6{
+    background-color: #05A93D;
+    padding: 5px 10px;
+    color: #EFFAF6;
+    align-content: start;
+    display: flex;
+    font-family: Gilroy-semibold;
+}
+
+.training-card h5{
+    font-family: Gilroy-semibold;
+}
+
+.training-card{
+    padding-top: 47px;
+    /* padding-bottom: 117px; */
+}
+
+.module{
+    align-items: start;
+}
+
+.training-card a{
+    text-decoration: none;
+    color: #05A93D;
+    font-family: Gilroy-semibold;
+}
+
+/* ABOUT SECTION */
+.about h2{
+    color: #05A93D;
+    padding-bottom: 9px;
+    font-size: 43px;
+    font-family: Gilroy-bold;
+}
+
+.about p{
+    font-family: Gilroy-medium;
+    color: #777777;
+}
+
+.abt-btn{
+    background-color: #05A93D;
+    color: #ffffff;
+    border: none;
+    border-radius: 70px;
+    padding: 15px 25px;
+    margin-top: 21px;
+    font-family: Gilroy-semibold;
+}
+
+.about-section{
+    padding-top: 135px;
+    padding-bottom: 132px;
+}
+
+/* CONTACT SECTION */
+.contactus{
+    background-color: #EFFAF6;
+    padding-top: 79px;
+}
+
+.form-style input,textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #898989;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+.contactus h2{
+    font-family: Gilroy-bold;
+}
+
+.contactus button{
+    background-color: #F67C01;
+    color: white;
+    font-family: gilroy-semibold;
+    border: none;
+    border-radius: 70px;
+    padding: 15px 25px;
+    margin-bottom: 97px;
+}
+
+.form-style label{
+    color: #898989;
+}
+
+/* FOOTER */
+footer{
+    background-color: #05A93D; 
+}
+
+.footer-link a{
+    text-decoration: none;
+    color: white;
+    font-family: Gilroy-medium;
+}
+
+.footer-link{
+    list-style-type: none;
+    gap: 73px;
+    padding-top: 37.78px;
+}
+
+.social-links{
+    gap: 11px;
+    padding-top: 41px;
+    padding-bottom: 44.91px; 
+}
+
+.logo-footer{
+    padding-top: 65px;
+}
+
+.footer p{
+    font-family: Gilroy-medium;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+    .footer-link{
+        gap: 43px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .footer-link{
+        gap: 25px;
+    }
+}
